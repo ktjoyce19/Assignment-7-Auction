@@ -12,6 +12,7 @@ namespace Assignment_7_Auction
                 new Item("Teddy Bear", 150),
                 new Item("Gun", 250),
                 new Item("Old Coffee", 550),
+                new Item("iPhone 1", 600),
             };
             while (true)
             {
