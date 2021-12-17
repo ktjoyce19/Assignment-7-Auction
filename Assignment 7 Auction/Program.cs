@@ -25,7 +25,7 @@ namespace Assignment_7_Auction
 
         static void PrintItems(Item[] items)
         {
-            for(int i = 0; i < 4; i++)
+            for(int i = 0; i < items.Length; i++)
             {
                 Console.WriteLine($"{i, -5}{items[i].GetDescripton(), -30}{items[i].GetHighestBid(),-10}");
             }
@@ -57,7 +57,7 @@ namespace Assignment_7_Auction
         }
         static void PrintSoldItems(Item[] items)
         {
-            for(int i = 0; i< 4; i++)
+            for(int i = 0; i< items.Length; i++)
             {
                 if (items[i].IsSold())
                 {
